@@ -32,8 +32,8 @@ function script({ entries, outputFileName }) {
 }
 
 gulp.task('watch', ['moveImages'], () => {
-  gulp.watch('src/**/*.js', ['formApp', 'app']);
-  gulp.watch('src/**/*.html', ['formApp', 'app']);
+  gulp.watch('src/**/*.js', ['app']);
+  gulp.watch('src/**/*.html', ['app']);
   gulp.watch('src/**/*.scss', ['style']);
   gulp.watch('src/images/**/*', ['moveImages']);
   gulp.watch('src/index.html', ['html']);
