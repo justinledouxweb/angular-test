@@ -36,3 +36,9 @@ We will evaluate you based on:
 - As a user, I want to see the average temperature of my entire log
 - As a user, I want to see the highest temperature in my log
 - As a user, I want to see the lowest temperature in my log
+
+# How to run the project
+
+Gulp is used to watch and compile HTML, SCSS and JavaScript files. Simply run `gulp watch` to start the watcher.
+
+In order to start the server on `localhost:3000` run `npm start` in other command line window.
